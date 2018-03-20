@@ -1,4 +1,4 @@
-//last update 3/15/2018 3:23 pm est by namenai
+//last update 3/18/2018 7:42 am est by Rexi
 
 
 //laat weapons,adds weapons and wingtip smoke
@@ -19,3 +19,16 @@
 //Opfor Speedboat,adds imperial eweb for rear and u-wing gunner gun for main cannon
 	[] execVM "scripts\zeus3denScripts\vehicleBased\vehicleVariants\seaBased\speedBoats\Opfor\opforSpeedBoat.sqf";
 
+//Add's flares to simulate plasma Mortars NATO and CSAT
+	[] execVM  "scripts\zeus3denScripts\vehicleBased\vehicleVariants\landbased\Mortar\mortars.sqf";
+
+//AT-TE Increases weapon damage and adds damage reports for AT-TE
+	[] execVM  "scripts\zeus3denScripts\vehicleBased\vehicleVariants\Landbased\ATTE\atte.sqf";
+
+//Sabre adds weapons and smokes and damage reports
+	[] execVM  "scripts\zeus3denScripts\vehicleBased\vehicleVariants\Landbased\sabres\Sabres.sqf";
+
+//barc allows barcs to be loaded into vehicles with a cargo space 4 or greater
+	[] execVM  "scripts\zeus3denScripts\vehicleBased\vehicleVariants\Landbased\barc\barc.sqf";	
+
+	
